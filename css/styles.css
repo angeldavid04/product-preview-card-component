@@ -147,6 +147,8 @@ main {
 .attribution {
   text-align: center;
   padding-block: 2rem;
+  padding-inline: 2rem;
+  text-wrap: pretty;
 }
 
 .attribution__link {
