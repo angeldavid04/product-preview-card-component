@@ -53,10 +53,8 @@ img {
 body {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  place-items: center;
   min-height: 100vh;
   background-color: var(--cream);
   color: var(--black);
@@ -68,6 +66,7 @@ main {
   justify-content: center;
   padding-inline: 1rem;
   padding-block: 1rem;
+  margin-block: auto 0;
 }
 
 /* ----- PRODUCT SECTION ----- */
@@ -149,6 +148,7 @@ main {
   padding-block: 2rem;
   padding-inline: 2rem;
   text-wrap: pretty;
+  margin-block: 0 auto;
 }
 
 .attribution__link {
